@@ -4,13 +4,13 @@ tracer(0)
 shape('turtle')
 pencolor("white")
 color= ['brown', 'red', 'orange', 'gold',\
-'yellow','lightgreen', 'lime', 'green',\
+'yellow', 'olive', 'lightgreen', 'lime', 'green',\
 'darkgreen', 'blue','lightblue', 'pink', \
-'purple', 'violet', 'grey','black',\
+'violet', 'purple','grey','black',\
 'brown', 'red', 'orange', 'gold',\
-'yellow','lightgreen', 'lime', 'green',\
+'yellow', 'olive', 'lightgreen', 'lime', 'green',\
 'darkgreen', 'blue','lightblue', 'pink', \
-'purple', 'violet', 'grey','black']
+'violet', 'purple', 'grey','black']
 r = 100
 def fff(side, i):
     begin_fill()
