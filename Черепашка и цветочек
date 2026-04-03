@@ -1,0 +1,30 @@
+# Просто черепашка симпатично бегает по цветочку :3
+from turtle import *
+tracer(0)
+shape('turtle')
+pencolor("white")
+color= ['brown', 'red', 'orange', 'gold',\
+'yellow','lightgreen', 'lime', 'green',\
+'darkgreen', 'blue','lightblue', 'pink', \
+'purple', 'violet', 'grey','black',\
+'brown', 'red', 'orange', 'gold',\
+'yellow','lightgreen', 'lime', 'green',\
+'darkgreen', 'blue','lightblue', 'pink', \
+'purple', 'violet', 'grey','black']
+r = 100
+def fff(side, i):
+    begin_fill()
+    fillcolor(color[i])
+    for _ in range(2):
+        fd(side)
+        right(60)
+        fd(side)
+        rt(120)
+    end_fill()
+        
+for i in range(len(color), 0, -1):
+    fff(r * ((i + 5)/ (len(color) + 5)), i - 1)
+    rt(360 / 12)
+
+up()
+update()
