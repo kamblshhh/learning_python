@@ -4,4 +4,4 @@ https://ucarecdn.stepik.net/71071315-780d-4d6e-986e-041fbc83de97/
 https://ucarecdn.stepik.net/60ac00f3-72fc-4959-a4dd-b526dfc6a54b/
 - цвета в черепашьей графике
 
-использовался сай https://stepindev.com/ru/py-playground
+использовался сайт https://stepindev.com/ru/py-playground
